@@ -11,8 +11,8 @@ export default {
         28,
     ],
     fonts: {
-        body: '"Open Sans", -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;',
-        heading: '"Lobster", -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;',
+        body: '"Lato", -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;',
+        heading: '"Indie Flower", -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;',
         monospace: '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;',
     },
     fontSizes: [
@@ -27,12 +27,12 @@ export default {
         128,
     ],
     fontWeights: {
-        body: 400,
+        body: 300,
         heading: 700,
         bold: 700
     },
     lineHeights: {
-        body: 1.94,
+        body: 1.618,
         heading: 1.35
     },
     colors: {
@@ -96,7 +96,7 @@ export default {
             fontWeight: 'body',
             lineHeight: 'body',
             mt: '0',
-            mb: '5'
+            mb: '3'
         },
         a: {
             color: 'primary'

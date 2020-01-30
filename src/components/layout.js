@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
         <Styled.root>
             <Global
                 styles={css`
-                @import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans&display=swap');
+                @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lato:300&display=swap');
 body:before, body:after {
      content: "";
      position: fixed;
@@ -35,7 +35,7 @@ body:before, body:after {
      background: #ff6f61 linear-gradient(382deg, rgba(255,111,97,1) 0%, rgba(255,240,237,1) 100%);
      display: flex;
      flex-direction: column;
-     height: calc(100vh - 64px);
+     height: calc(100vh - 96px);
      padding: 32px;
      position: relative;
      top: 32px;
